@@ -69,3 +69,13 @@ ffmpeg -i input.mov -vcodec libvpx -acodec libvorbis output.webm
   <source src="movie.webm" type='video/ogg'></source>
 </video>
 ```
+
+### Resize Audio
+
+```bash
+ffmpeg -ss 0 -t 8 -i Oblique.mp3 ob.mp3  # ss for sec, t is time, i is input file
+ffmpeg -i "Track 1.wav" -vn -ar 44100 -ac 2 -ab 192k -f mp3 Track1.mp3  # Convert wav to mp3
+```
+
+### Resources
+http://www.catswhocode.com/blog/19-ffmpeg-commands-for-all-needs
