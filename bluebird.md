@@ -10,6 +10,13 @@ updated: 2017-09-04
 
 Also see the [promise cheatsheet](promise.html) and [Bluebird.js API](https://github.com/petkaantonov/bluebird/blob/master/API.md) (github.com).
 
+### Promisify
+Promisify a library
+
+```js
+var readFile = Promise.promisify(require("fs").readFile);
+```
+
 ### Example
 
 ```js

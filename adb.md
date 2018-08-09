@@ -80,5 +80,6 @@ $ adb pull /sdcard/test.txt pulledTest.txt
 | `adb shell wm size`                    | Displays the current screen resolution                                |
 | `adb shell wm size WxH`                | Sets the resolution to WxH                                            |
 | `adb shell pm list packages`           | Lists all installed packages                                          |
+| `adb shell pm list users`              | Lists all users                                          |
 | `adb shell pm list packages -3`        | Lists all installed 3rd-party packages                                |
 | `adb shell monkey -p app.package.name` | Starts the specified package                                          |

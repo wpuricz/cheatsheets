@@ -21,3 +21,5 @@ Replace anything within `<placeholder>` accordingly
 ### Creating database
 
      $ createdb databasename
+
+### Admin Commands

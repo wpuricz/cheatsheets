@@ -26,7 +26,6 @@ title: Python
     sum(list)
 
     list.sort()
-
     zip(list1, list2)
     sorted(list)
     ",".join(list)
