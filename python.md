@@ -17,7 +17,7 @@ title: Python
     list.extend(list)
     list.insert(0, item)
     list.pop()
-    list.remove(i)
+    list.remove(i)s
     list1 + list2     # combine two list    
     set(list)         # remove duplicate elements from a list
 

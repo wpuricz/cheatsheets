@@ -153,3 +153,9 @@ $(function () {
     input.form-control(type='text')
     .input-group-addon years
 ```
+
+
+### Button
+```
+<button type="button" class="btn btn-primary">Primary</button>
+```

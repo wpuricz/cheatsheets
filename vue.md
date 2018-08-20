@@ -90,6 +90,40 @@ new Vue({
 })
 ```
 
+### Reusable Components
+1. Create Component normally
+2. Import Component file
+```
+  import Search from './Search.vue'
+```
+3. Register Component Locally
+```
+components:{
+    'search':Search
+  },
+```
+4. Use component
+```
+  <search></search>
+```
+
+### Vue- Router
+https://router.vuejs.org/guide/#html
+```
+router.push('home')
+router.push({ path: 'home' })
+router.push({ name: 'user', params: { userId: 123 }})
+```
+
+```
+router.go(1) // Forward
+router.go(-1) // Back
+```
+
+```
+<router-link to="/bar">Go to Bar</router-link>
+```
+
 ## API
 
 ```js
